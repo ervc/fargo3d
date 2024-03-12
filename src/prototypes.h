@@ -7,6 +7,7 @@
 //mesh.c prototypes
 real ux(real);
 real uy(real);
+real uz(real);
 real bisect(real a, real b, int N, real (*u)(real), int);
 void compute_ux_constants(void);
 
